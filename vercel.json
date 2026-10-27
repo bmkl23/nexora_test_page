@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/design-api/:path*",
+      "destination": "http://3.110.222.67:8000/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://txs6owet18.execute-api.ap-south-1.amazonaws.com/dev/:path*"
+    }
+  ]
+}
